@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <logo>WebStudio</logo>
-      <ul>
-        <li>
+    <header class="pege-header">
+      <a class="link" href="/"
+        ><span class="logoColor">Web</span
+        ><span class="logoColortext">Studio</span></a
+      >
+
+      <ul class="list">
+        <li class="listItem">
           <a href="file:///C:/Users/Serhii/Desktop/html.dz/index.html">
             Menu Nov
           </a>
@@ -18,50 +23,58 @@
           <a href="">Profile</a>
         </li>
         <li><a href="">Contakt</a></li>
-        <li><a href="info@devstudio.com">info@devstudio.com</a></li>
+      </ul>
+      <ul class="AdresTelefon">
+        <li class="adres">
+          <a href="info@devstudio.com">info@devstudio.com</a>
+        </li>
 
-        <li><a href="tel:+12127724150">+12127724150</a></li>
+        <li class="adres">
+          <a href="tel:+12127724150">+12127724150</a>
+        </li>
       </ul>
     </header>
     <div>
-      <section>
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINNESS</h1>
-        <a href="">Request our service</a>
+      <section class="hero-section">
+        <h1 class="hero-section-title">
+          EFFECTIVE SOLUTIONS FOR YOUR BUSINNESS
+        </h1>
+        <button>Request our service</button>
       </section>
-      <section>
-        <ul>
-          <li>
-            <h2>ATENTION TO DETAIIS</h2>
-            <p>
+      <section class="about-section">
+        <ul class="about-section-list">
+          <li class="about-section-list-item">
+            <h2 class="about-section-title">ATENTION TO DETAIIS</h2>
+            <p class="about-section-title-text">
               We go into all the details and processes of your business to
               develop a customized solution.
             </p>
           </li>
-          <li>
-            <h2>PUNCTUALITY</h2>
-            <p>
+          <li class="about-section-list-item">
+            <h2 class="about-section-title">PUNCTUALITY</h2>
+            <p class="about-section-title-text">
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and respect the agreed deadlines.
             </p>
           </li>
           <li>
-            <h2>PLANNING</h2>
-            <p>
+            <h2 class="about-section-title">PLANNING</h2>
+            <p class="about-section-title-text">
               You will be able to observe and participate in every phase of
               solution development and implementation.
             </p>
           </li>
           <li>
-            <h2>mODERN TECHNOLOGIES</h2>
-            <p>
+            <h2 class="about-section-title">mODERN TECHNOLOGIES</h2>
+            <p class="about-section-title-text">
               We use innovative tools to solve assigned tasks. It's time to
               simplify work processes.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>What we do</h2>
+      <section class="do-section">
+        <h2 class="do-section-work">What we do</h2>
         <ul>
           <li>
             <img src="./img.png" alt="printing on a tablet" width="370" />
@@ -82,41 +95,50 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our Team</h2>
+      <section class="Our-Team">
+        <h2 class="Our-Team-work">Our Team</h2>
         <ul>
           <li>
-            <img src="./img.....jpg" alt="a guy with glasses" width="270" />
-            <h3>Christopher Walker</h3>
-            <p>Product Designer</p>
+            <img src="./img.png" alt="a guy with glasses" width="270" />
+            <h3 class="Our-Team-work-name">Christopher Walker</h3>
+            <p class="Our-Team-work-name-position">Product Designer</p>
           </li>
           <li>
             <img src="./img_1.jpg" alt="a woman in glasses" width="270" />
-            <h3>Kylie Evans</h3>
-            <p>Frontend Developer</p>
+            <h3 class="Our-Team-work-name">Kylie Evans</h3>
+            <p class="Our-Team-work-name-position">Frontend Developer</p>
           </li>
           <li>
-            <img src="./img (2).jpg" alt="boy" width="270" />
-            <h3>Ryan Harris</h3>
-            <p>Marketing</p>
+            <img src="./img_2.jpg" alt="boy" width="270" />
+            <h3 class="Our-Team-work-name">Ryan Harris</h3>
+            <p class="Our-Team-work-name-position">Marketing</p>
           </li>
-          <li><img src="./img (3).jpg" alt="boy" width="270" /></li>
-          <h3>Tyler Moore</h3>
-          <p>UI Designer</p>
+          <li>
+            <img src="./img_3.jpg" alt="boy" width="270" />
+            <h3 class="Our-Team-work-name">Tyler MooreS</h3>
+            <p class="Our-Team-work-name-position">UL Designer</p>
+          </li>
         </ul>
       </section>
-      <footer>
-        <h3>WebStudio</h3>
-        <p>695 Park Ave, New York, NY 10065, United States United States</p>
-        <ul>
-          <li>
-            <a type="email" href="info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a type="phone" href="tel:+1 212-772-4150">+1 212-772-4150</a>
-          </li>
-        </ul>
-      </footer>
+      <section class="communication">
+        <footer>
+          <a class="communication-l" href="/"
+            ><span class="communication-logo">Web</span
+            ><span class="communication-logocolor">Studio</span></a
+          >
+          <p class="adres">
+            695 Park Ave, New York, NY 10065, United States United States
+          </p>
+          <ul>
+            <li class="mail">
+              <a href="info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="telefon">
+              <a href="tel:+1 212-772-4150">tel:+1 212-772-4150</a>
+            </li>
+          </ul>
+        </footer>
+      </section>
     </div>
   </body>
 </html>
